@@ -1,9 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import PrimeraApp from "./PrimeraApp";
+import CounterApp from "./counterApp";
 
 import './styles.css'
 
 const divRoot = document.querySelector('#root')
 
-ReactDOM.render(<PrimeraApp nombre='Raul de comodoro'/>,divRoot)
+ReactDOM.render(<CounterApp value={123}/>,divRoot)
